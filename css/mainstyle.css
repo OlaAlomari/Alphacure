@@ -1,0 +1,37 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+  /*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+    .form-group .btn-form{
+    background: #11dbcf;
+    border: 2px solid #11dbcf;
+    text-decoration: none;
+    color:#000;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    .footer {
+        text-align: center;
+        font-size: 0.9rem;
+        background:rgba(17, 219, 207,0.8);
+      }
+      .footer .btn-back{
+        background: #fff;
+        color: #00d9ff;
+      }
+      .footer .text{
+        color: #000;
+      }

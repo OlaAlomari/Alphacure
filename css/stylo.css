@@ -1,0 +1,72 @@
+
+:root{
+    #0075AA:#16a085;
+    --black:#444;
+    --light-color:#777;
+    --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
+    --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
+    --border:.2rem solid #0075AA;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0px; padding: 25px;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+.box{
+    /*start ------------*/
+    width: [object Object]px; 
+    height: [object Object]px; 
+    background: #white; 
+    border: solid #BDBDBD 0; 
+    box-shadow: -3px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+    -webkit-box-shadow: -3px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+    -moz-box-shadow: -3px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    padding-top: 10rem;
+}
+
+.box .image{
+    flex:1 1 45rem;
+}
+
+.box .image img{
+    width: 100%;
+    display: flex;
+}
+
+.box .content{
+    flex:1 1 45rem;
+}
+
+.box .content h3{
+    font-size: 4.5rem;
+    color:var(--black);
+    line-height: 1.8;
+    text-shadow: var(--text-shadow);
+}
+
+.box .content p{
+    font-size: 1.7rem;
+    color:var(--light-color);
+    line-height: 1.8;
+    padding: 1rem 0;
+}
